@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": "USR-ADMIN",
+      "username": "admin",
+      "passwordHash": "$2b$10$cPqViswdniUAdlMFuT9M0.AZ0y3Dv.s7rPXqfH1jLTvPVdSFFLVkC",
+      "role": "admin",
+      "registeredAt": "2026-07-07T03:50:56.034Z"
+    },
+    {
+      "id": "USR-SELLER",
+      "username": "seller",
+      "passwordHash": "$2b$10$P14wM1RtOzSUO2OfJn687.53R4lsrOIdPwOJ/AHkDj3Kp8r3SaG.W",
+      "role": "seller",
+      "registeredAt": "2026-07-07T03:50:56.141Z"
+    },
+    {
+      "id": "USR-BUYER",
+      "username": "buyer",
+      "passwordHash": "$2b$10$IjH2ooAU98.ULvkVG2UJTOkxbb97V9Qk21B1vvK7CZwGx8TDM2INC",
+      "role": "buyer",
+      "registeredAt": "2026-07-07T03:50:56.247Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "sonic-pro-headphones",
+      "title": "Sonic Pro Noise Canceling Gen 2",
+      "category": "Electronics",
+      "pricePKR": 14500,
+      "priceUSD": 52,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAdHoeDr0FvKMp6mpuBkdSuyhWlnkhuPgtrGqsydBA2ROMHwCjpStqnJsVTa7RRKDtRNMGPXB8WV37sEas02wkdywNxYkxdkR2PWyH74jtuMPocetJRxBBHS_O-AlH7bvchrBXRE_VSOk9KP3IzagOcFDEJGe9W19lmw4tdeTa0lC-PgOvMYUs77Opeba_24NQAvad39_mjeqpUTyjmEywVjKWs_1w1shPbZYlVPCuhSEFvO9NPcX6V60IIju2POth8VejI3WC-ug",
+      "rating": 4.9,
+      "reviewsCount": 1540,
+      "isFlashDeal": true,
+      "discount": 45,
+      "originalPricePKR": 26000,
+      "originalPriceUSD": 94,
+      "description": "Sleek, matte black wireless noise-canceling headphones designed with dynamic acoustics and intelligent adaptive ambient control. Engineered for continuous comfort with plush memory foam earcups.",
+      "specifications": {
+        "Driver Size": "40mm Titanium Dome",
+        "Battery Life": "Up to 45 Hours (ANC On)",
+        "Connectivity": "Bluetooth 5.3 & Ultra-Low Latency Wired",
+        "Noise Canceling": "Hybrid Active Noise Cancellation (Up to 48dB)"
+      }
+    },
+    {
+      "id": "lumina-glow-skincare",
+      "title": "Lumina Glow Organic Ritual Kit",
+      "category": "Beauty",
+      "pricePKR": 15990,
+      "priceUSD": 58,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDehDmVhAt8imnrSlU7IBPbO04Cgv5up3nbh8yf-lTWjufbjKfsRoM8HB6tt2ZDD4sYZAdFJVGkRu15VoMvuQGWkwFPFfDa9Ht1LzdkDxRSV7UP9DRIzSZJVXxoCJUZoCRiZ6_Eqat6cgXALcvmtIfCoqAR9nb0SWD8AjnZc-fz8pJwebV_KyNJeTFzEbI_HX19mFXKv_GgR7IZInyFps-k85ayn8muLytffSvjbtAN1zrdMna9nbAI9JzLe0ke6YAAnQEk4UGZqQ",
+      "rating": 4.95,
+      "reviewsCount": 842,
+      "isFlashDeal": true,
+      "discount": 30,
+      "originalPricePKR": 22800,
+      "originalPriceUSD": 82,
+      "description": "A luxurious kit of plant-derived skin treatments meant to lock in intense moisture and smooth complexions. Contains organic botanicals, high-purity Vitamin C serums, and deep renewing night creams.",
+      "specifications": {
+        "Core Ingredients": "Squalane, Rosehip Oil, Hyaluronic Acid, Vitamin C",
+        "Skin Type": "Suitable for All Skin Types including Sensitive",
+        "Includes": "Toner (100ml), Glow Serum (30ml), Midnight Moisturizer (50ml)"
+      }
+    },
+    {
+      "id": "chronos-elite-watch",
+      "title": "Chronos Elite Chronograph S",
+      "category": "Fashion",
+      "pricePKR": 38000,
+      "priceUSD": 137,
+      "image": "/src/assets/images/chronos_elite_watch_image_1783397796162.jpg",
+      "rating": 4.8,
+      "reviewsCount": 312,
+      "isFlashDeal": true,
+      "discount": 25,
+      "originalPricePKR": 51000,
+      "originalPriceUSD": 183,
+      "description": "A handcrafted chronometer watch boasting mechanical precision. Features a striking dark-blue dial face inside a scratchproof casing of Grade 5 Titanium overlay.",
+      "specifications": {
+        "Movement": "Japanese Automatic Movement",
+        "Water Resistance": "100m (10 ATM)",
+        "Strap": "Genuine Italian Suede leather strap, quick release",
+        "Glass": "Double-dome Curved Sapphire Crystal with internal AR coating"
+      }
+    },
+    {
+      "id": "nestflow-smart-thermostat",
+      "title": "NestFlow AI Smart Thermostat",
+      "category": "Home",
+      "pricePKR": 24999,
+      "priceUSD": 90,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIrz4t6LnJXcoJ_VX5wu1M306UBnbJmDoU4SlZXKAzBRIZD40TMskfST1EqkB4nmyfscikEBsErkiys8nFnmCas3cGsGavfN7HzhzMsb6_JP1DkNc81LkaBsNsxw6O1OgOUHHzeCQdjaziJ0rsDKEyswem5o1TvORo00uoGGUveKSg9Q2ySgscxQKUBJO3Vq31D0EtqsGz9jRX_yj1x44dVsJ3j0TJfTSxZ6Wh0MN6xf7OScAXzNgHTy7nIR7mrAmqaItb5rAmoA",
+      "rating": 4.9,
+      "reviewsCount": 1205,
+      "description": "An AI-optimized climate manager for space heating and cooling. Adapts dynamically to your schedule and uses predictive solar heating models to trim power utility bills.",
+      "specifications": {
+        "Display": "2.4-inch AMOLED High Resolution Circular Touchscreen",
+        "Connectivity": "Dual-band Wi-Fi 6, Thread, Matter and Zigbee Support",
+        "Integrations": "Google Home, Apple HomeKit, Amazon Alexa"
+      }
+    },
+    {
+      "id": "zorify-elite-espresso",
+      "title": "Elite Espresso Brew Pro",
+      "category": "Home",
+      "pricePKR": 110000,
+      "priceUSD": 396,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAP2D3slADJIANnpQDBt9ZybQwWPdUZcOwlorCvXDWgzu5UTf92figHDjIuE0i17gehC0zA2k6m5KlOtqjpxZx7286fFEP8IEwoKWQS7JAVhid9k8FfIkNVJkCKY1dXgfTaGsfBJHH0JklVsvn9kyI4kHJ46580gW94PTW3KqnwBsM9ZQHu0BH0Yv6k3gzAVj-I7q6P3vbSAygcAJgfwR_jDoXYzHaRxQfZdoDSOLR2D_HmnJ307gmnZ2SI_6HfTkR05VC-g2wxDg",
+      "rating": 5,
+      "reviewsCount": 458,
+      "topChoice": true,
+      "description": "Commercial-grade, full-bodied espresso extractor bundled with a smart PID thermal generator and a micro-foam pressure milk frother. Get perfect golden-brown cremas every cycle.",
+      "specifications": {
+        "Pump Pressure": "19 Bar High-Pressure OptiPump System",
+        "Boiler Tech": "Dual-Thermoblock System with Digital Temperature Guard",
+        "Water Reservoir": "2.5L Removable BPA-free tank"
+      }
+    },
+    {
+      "id": "aura-leather-kicks",
+      "title": "Aura Urban Leather Kicks",
+      "category": "Fashion",
+      "pricePKR": 12500,
+      "priceUSD": 45,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuADXHDQy4qvMM5UKF_VQshuVPB5_MYJXWZVvP9EbwOXkKKZCJUF0Yh4Xy3zwF-s2PpkYgyWJkL7ljXty0kvV2-ueXHs2mCzJk4-vT5XL3loFgPHHgib8E4rq4BfhAhUHv9tSBlt_OqT6zw4rYKmgtoFbZJe7bOdMJ-UKuE2fiLNuyVxcwSTnZIzb4I3CrajeHAbrDBMTlAHcRUjYRLH2G2jCcMo7dl85cVHKucaqP29bEDR088YpYV_KPXhAqa6uQxMQo37YZHHlA",
+      "rating": 4.8,
+      "reviewsCount": 890,
+      "description": "Minimalist designer street shoes using hand-stitched grain-milled leather with natural contrast suede mudguards.",
+      "specifications": {
+        "Outer Material": "Top Grain Cowhide Leather",
+        "Sole Tech": "OrthoGrip Recycled Cushioned Rubber Outsole",
+        "Style": "Eco-Lux Streetwear Silhouette"
+      }
+    },
+    {
+      "id": "tabpro-x-sketch-pad",
+      "title": "TabPro X Digital Sketch Edition",
+      "category": "Electronics",
+      "pricePKR": 68000,
+      "priceUSD": 245,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBascmEWaiArh5UhN_KoFb6PNhn7uJ09uEthwLx7WHC24Eok4-ArpoCtlU3xq0dT5jjat5CNB13X5AgCcOoilKM_3laZdrBHODmFb4Yzy4m975mh5Aj2P_fx38L_3-9oM8DpAfw3Wx3QVL-ZY5XUid2qDgFEpfFnuE8GyNjZoEcTK8Hfk-Gfq98lyFdkloGwXvFEt9jRobr3b1TldTE8js9FVMyL-a7eg5l3X7FWX9LG0JTDXgdULbkUdjlyWqSRlMdbRaVpuVl3A",
+      "rating": 4.7,
+      "reviewsCount": 2314,
+      "description": "High-precision active sketch tablet featuring zero-gap parallax and 8,192 points of pen angular sensitivity. Compatible with professional illustration networks.",
+      "specifications": {
+        "Screen Size": "12.4 inch IPS Fully Laminated 120Hz",
+        "Stylus Included": "Z-Pen 3 Active Magnetic Charging Pen",
+        "Color Coverage": "99% DCI-P3 Color Gamut"
+      }
+    },
+    {
+      "id": "baby-monitor-smart",
+      "title": "CrySense Baby Monitor",
+      "category": "Baby",
+      "pricePKR": 19800,
+      "priceUSD": 71,
+      "image": "https://images.unsplash.com/photo-1542443878-0435d72efcb2?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.85,
+      "reviewsCount": 192,
+      "description": "Smart AI baby monitor that utilizes acoustic analysis to classify infant cries into categories such as hunger, fatigue, or gas. Fully encrypted stream with offline storage option.",
+      "specifications": {
+        "Resolution": "2K Ultra HD Pan & Tilt Camera with Infrared Night Vision",
+        "Acoustic AI": "Cry classification & Breathing Pattern Monitoring",
+        "Privacy": "End-to-End Encrypted Secure Network Local Storage"
+      }
+    },
+    {
+      "id": "commerce-era-blueprint",
+      "title": "The AI-Commerce Era Blueprint",
+      "category": "Books",
+      "pricePKR": 3800,
+      "priceUSD": 14,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=400&q=80",
+      "rating": 4.9,
+      "reviewsCount": 88,
+      "description": "A deep-dive analysis written by industry headers exploring the intersection of global trade networks, trust validation systems, and agentic AI architectures.",
+      "specifications": {
+        "Format": "Hardcover Deluxe Edition & Digital Copy Key",
+        "Pages": "342 Pages thick",
+        "Publisher": "Press Academic Series"
+      }
+    }
+  ],
+  "orders": [],
+  "emails": []
+}

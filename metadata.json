@@ -1,0 +1,6 @@
+{
+  "name": "Zorify Verified AI-Commerce Marketplace",
+  "description": "An immersive multi-seller e-commerce app featuring escrow protection contracts, real-time USD/PKR price conversions, flash deals countdown, and server-side Google Gemini personal shopping advisors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
